@@ -8,7 +8,7 @@ Real-time Texas Hold'em helper that:
 
 ## Demo
 
-[Watch the demo video (MP4)](media/AIPokerDetectorShowcase.mp4)
+![AIPokerDetector demo](media/AIPokerDetectorShowcase.gif)
 
 ## Quick start (Windows)
 
