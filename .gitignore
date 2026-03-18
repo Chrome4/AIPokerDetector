@@ -1,0 +1,48 @@
+# Python bytecode / cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Model weights and large artifacts
+*.pt
+*.pth
+*.onnx
+
+# Ship app weights from AI/
+!AI/*.pt
+
+# YOLO / Ultralytics run outputs
+runs/
+
+# Datasets (not needed for running the app)
+roboflow_dataset/
+roboflow2/
+test_images/
+
+# Training configs you don't want in repo
+configs/
+
+# Local benchmark / test scripts
+test_eval_speed.py
+detect_cardsM.py
+detect_cardsMv2.py
+
+# Jupyter / notebook checkpoints
+.ipynb_checkpoints/
+

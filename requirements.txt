@@ -1,0 +1,6 @@
+ultralytics
+opencv-python
+mss
+numpy
+pillow
+keyboard
