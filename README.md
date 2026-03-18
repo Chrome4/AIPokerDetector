@@ -6,6 +6,10 @@ Real-time Texas Hold'em helper that:
 - Stabilizes detections into a hand state (player + community cards)
 - Displays **best hand**, **win % vs opponents (Monte Carlo)**, and **next-card improvement chance**
 
+## Demo
+
+[Watch the demo video (MP4)](media/AIPokerDetectorShowcase.mp4)
+
 ## Quick start (Windows)
 
 ### 1) Install Python
@@ -53,7 +57,7 @@ If you want to switch modes, see `detect_cards(...)` in `core/detector.py`.
   - Confirm your weights path is correct and the model file exists.
   - Try lowering `conf_thresh` and/or adjusting `imgsz`/`iou` in `detect_cards(...)`.
 
-## Repo layout (high level)
+## Repo layout 
 
 - `main_ui.py`: Tkinter GUI entry point
 - `main.py`: console-only entry point
